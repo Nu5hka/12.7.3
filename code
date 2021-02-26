@@ -7,4 +7,4 @@ SBER = int((per_cent['СБЕР']) * (money/100))
 deposit = {'ТКБ':TKB,'СКБ':SKB,'ВТБ':VTB,'СБЕР':SBER}
 print ("Возможные накопленные средства за год вклада в каждом из банков", deposit)
 deposit_i=max(deposit.values() )
-print ("Максимальное из возможных навепленых средств", deposit_i)
+print ("Максимальное из возможных накопленных средств", deposit_i)
